@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>资源导航页</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap');
+    :root {
+      --primary: #2563eb;
+    }
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    }
+    .link-card {
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .link-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body class="min-h-screen p-6">
+  <div class="max-w-4xl mx-auto space-y-8">
+    
+    <!-- 第一层：页面主标题 -->
+    <div class="text-center space-y-2">
+      <h1 class="text-4xl font-bold text-[var(--primary)]">资源导航页</h1>
+      <p class="text-gray-600">整理常用工具和补丁，点击链接直达，不要忘了三连哦</p>
+    </div>
+
+    <!-- 第二层：全盘资源链接 -->
+    <div class="bg-white p-6 rounded-xl shadow-md">
+      <h2 class="text-2xl font-semibold text-[var(--primary)] mb-2">全盘资源链接</h2>
+      <p class="text-gray-600 text-sm mb-4">包含全部文件，一键打包获取</p>
+      <a href="https://pan.quark.cn/s/6f208445f183" target="_blank" class="text-blue-600 hover:underline">立即访问 →</a>
+    </div>
+
+    <!-- 第三层：分类资源 -->
+    <div class="space-y-6">
+      <h2 class="text-xl font-semibold text-gray-700 border-b pb-1">分类资源列表</h2>
+
+      <!-- 单个资源项 -->
+      <div class="link-card bg-white p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">Shizuku 魔改版 ZeroPosed</h3>
+        <p class="text-gray-600 text-sm mb-2">基于最新内核优化，支持更多机型</p>
+        <a href="https://pan.quark.cn/s/8bc71922c040" target="_blank" class="text-blue-600 hover:underline text-sm">访问链接 →</a>
+      </div>
+
+      <div class="link-card bg-white p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">免 ROOT 安装 Xposed 模块</h3>
+        <p class="text-gray-600 text-sm mb-2">无需 Root 权限加载模块</p>
+        <a href="https://pan.quark.cn/s/9e1b0713370d" target="_blank" class="text-blue-600 hover:underline text-sm">访问链接 →</a>
+      </div>
+
+      <div class="link-card bg-white p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">App 签名伪装</h3>
+        <p class="text-gray-600 text-sm mb-2">解决授权失败问题，模拟签名信息</p>
+        <a href="https://pan.quark.cn/s/7ed423b8b60a" target="_blank" class="text-blue-600 hover:underline text-sm">访问链接 →</a>
+      </div>
+
+      <div class="link-card bg-white p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">App 保存数据降级</h3>
+        <p class="text-gray-600 text-sm mb-2">保留数据降级旧版本</p>
+        <a href="https://pan.quark.cn/s/e8e695b3c4dd" target="_blank" class="text-blue-600 hover:underline text-sm">访问链接 →</a>
+      </div>
+
+      <div class="link-card bg-white p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">DLC 配置文件</h3>
+        <p class="text-gray-600 text-sm mb-2">补丁与扩展功能配置</p>
+        <a href="https://pan.quark.cn/s/32a95f0230ea" target="_blank" class="text-blue-600 hover:underline text-sm">访问链接 →</a>
+      </div>
+
+      <div class="link-card bg-white p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">AdGuard 广告拦截</h3>
+        <p class="text-gray-600 text-sm mb-2">强力广告屏蔽方案</p>
+        <a href="https://pan.quark.cn/s/550bb3fdfb94" target="_blank" class="text-blue-600 hover:underline text-sm">访问链接 →</a>
+      </div>
+    <!-- 第四层：群聊分享-->
+    <div class="space-y-6">
+      <h2 class="text-xl font-semibold text-gray-700 border-b pb-1">感兴趣可以加群</h2>
+      <!-- 群聊号码-->
+    <div class="space-y-2">
+        <p class="text-sm">QQ群：</p>
+        <p class="text-sm">1群：1002984558</p>
+        <p class="text-sm">2群：519141296</p>
+    </div>
+</div>
+    </div>
+  </div>
+</body>
+</html>
